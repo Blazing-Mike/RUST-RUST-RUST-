@@ -40,3 +40,13 @@ Run "cargo build" in your command line editor ( i am using CMD on windows), afte
    - An array is a fixed length collection of data elements all of the same type. So it was at this point i found out Rust was statitically typed, 
    you have to know shit at compile time and the language is not doing any type conversion under the hood for you, 
    unlike javascript where it is dynamically typed and it does some type coercion... well let's move on.
+           So an array goes like this 
+           `` fn main() {
+    let nums: [i32; 3] = [1, 2, 3]; // The data type for an array is [T;N] where T is the elements' type, and N is the fixed length known at compile-time.
+    println!("{:?}", nums);
+    println!("{}", nums[0]); // An array in rust also starts from 0( programming genrally)
+}
+``
+
+
+    
