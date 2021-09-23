@@ -50,5 +50,16 @@ Run "cargo build" in your command line editor ( i am using CMD on windows), afte
       println!("{}", nums[0]); // An array in rust also starts from 0( programming genrally)
       } ``
 
+### FUNCTIONS
+- A functions has zero or more parameters
 
+      fn add(x: i32, y: i32) -> i32 {
+       return x + y;
+         }
+         
+         fn main() {
+      println!("42 + 13 = {}", add(42, 13));
+         }
+         
+   - Hint: if you define a function, the data it accepts are called parameters. If you call that function and pass data to it, then it's called arguments  
     
