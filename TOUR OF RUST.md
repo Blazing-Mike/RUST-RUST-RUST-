@@ -34,3 +34,9 @@ Run "cargo build" in your command line editor ( i am using CMD on windows), afte
    -slices - a collection of similar elements with length known at runtime
    
    -str (string slice) - text with a length known at runtime
+   
+   ### ARRAYS
+   
+   - An array is a fixed length collection of data elements all of the same type. So it was at this point i found out Rust was statitically typed, 
+   you have to know shit at compile time and the language is not doing any type conversion under the hood for you, 
+   unlike javascript where it is dynamically typed and it does some type coercion... well let's move on.
