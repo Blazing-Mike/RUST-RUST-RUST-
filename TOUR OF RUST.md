@@ -19,9 +19,9 @@ Run "cargo build" in your command line editor ( i am using CMD on windows), afte
 
    -booleans - bool for representing true/false
    
-   -unsigned integers - u8 u16 u32 u64 u128 for representing nonnegative whole numbers
+   -unsigned integers - u8 u16 u32 u64 u128 for representing nonnegative whole numbers ( can only hold zero and positive whole numbers)
    
-   -signed integers - i8 i16 i32 i64 i128 for representing whole numbers
+   -signed integers - i8 i16 i32 i64 i128 for representing whole numbers ( can hold zero, negative and positive whole numbers)
    
    -pointer sized integers - usize isize for representing indexes and sizes of things in memory
    
